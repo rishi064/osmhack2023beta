@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff5f5;
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* nav section  */
+.main-navigation {
+  align-items: center;
+  margin-left: auto;
+  padding: 0rem 2.4rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+  border-bottom: 1px solid #0d0640;
+}
+
+.logo-img {
+  width: 10rem;
+}
+
+nav a {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+nav a:first-child {
+  margin-right: auto;
+}
+
+nav a:link,
+nav a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-register:link,
+.nav-register:active {
+  display: inline-block;
+  border-radius: 0.8rem;
+  background-color: #e03131;
+  font-size: 2.4rem;
+  padding: 0.4rem 0.8rem;
+  color: #fff;
+}
+
+.nav-register:hover,
+.nav-register:active {
+  border: 1px solid #00f;
+}
+
+/* body section  */
+
+.team-img img {
+  width: 16.9rem;
+}
+
+h1 {
+  font-size: 4.8rem;
+  margin: 8.6rem 0 2.4rem 0;
+}
+
+.team-container {
+  margin-bottom: 4rem;
+}
+
+.team-container .team-name {
+  font-size: 2.8rem;
+  margin-bottom: 1.8rem;
+}
